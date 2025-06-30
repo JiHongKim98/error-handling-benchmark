@@ -1,0 +1,5 @@
+Benchmark                                               (errorProb)   Mode  Cnt           Score         Error  Units
+ErrorScenarioBenchmark.baseline                                 0.1  thrpt   15  1792711070.995 ± 3872156.030  ops/s
+ErrorScenarioBenchmark.tryCatchWithRuntimeException             0.1  thrpt   15    14590827.023 ±   84144.730  ops/s
+ErrorScenarioBenchmark.tryCatchWithSuppressedException          0.1  thrpt   15   227175554.200 ± 1342517.056  ops/s
+ErrorScenarioBenchmark.useEither                                0.1  thrpt   15   226232437.457 ±  908648.026  ops/s
