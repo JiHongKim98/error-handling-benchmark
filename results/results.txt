@@ -1,5 +1,19 @@
-Benchmark                                               (errorProb)   Mode  Cnt           Score         Error  Units
-ErrorScenarioBenchmark.baseline                                 0.1  thrpt   15  1792711070.995 ± 3872156.030  ops/s
-ErrorScenarioBenchmark.tryCatchWithRuntimeException             0.1  thrpt   15    14590827.023 ±   84144.730  ops/s
-ErrorScenarioBenchmark.tryCatchWithSuppressedException          0.1  thrpt   15   227175554.200 ± 1342517.056  ops/s
-ErrorScenarioBenchmark.useEither                                0.1  thrpt   15   226232437.457 ±  908648.026  ops/s
+Benchmark                                                        (errorProb)   Mode  Cnt          Score           Error  Units
+ErrorScenarioBenchmark.baseline                                         0.01  thrpt   15  215204867.725 ±  24362007.653  ops/s
+ErrorScenarioBenchmark.baseline                                          0.1  thrpt   15  215468070.764 ±  20814092.188  ops/s
+ErrorScenarioBenchmark.baseline                                          0.3  thrpt   15  214801889.711 ±  25555157.254  ops/s
+ErrorScenarioBenchmark.runtimeException                                 0.01  thrpt   15   79907851.351 ±  55446932.596  ops/s
+ErrorScenarioBenchmark.runtimeException                                  0.1  thrpt   15   13655039.731 ±   1738601.378  ops/s
+ErrorScenarioBenchmark.runtimeException                                  0.3  thrpt   15    4846679.401 ±    290535.876  ops/s
+ErrorScenarioBenchmark.suppressedException                              0.01  thrpt   15  162859646.156 ± 214533898.661  ops/s
+ErrorScenarioBenchmark.suppressedException                               0.1  thrpt   15  145488242.537 ± 194360459.125  ops/s
+ErrorScenarioBenchmark.suppressedException                               0.3  thrpt   15  114031863.609 ±  92254977.622  ops/s
+ErrorScenarioBenchmark.suppressedExceptionWithSingleton                 0.01  thrpt   15  211190290.271 ±   1764701.565  ops/s
+ErrorScenarioBenchmark.suppressedExceptionWithSingleton                  0.1  thrpt   15  207712218.680 ±   4415931.168  ops/s
+ErrorScenarioBenchmark.suppressedExceptionWithSingleton                  0.3  thrpt   15  182137598.039 ±   7437503.636  ops/s
+ErrorScenarioBenchmark.eitherError                                      0.01  thrpt   15  145141856.888 ±  36978253.537  ops/s
+ErrorScenarioBenchmark.eitherError                                       0.1  thrpt   15  136870922.168 ±  26310294.041  ops/s
+ErrorScenarioBenchmark.eitherError                                       0.3  thrpt   15  118797754.087 ±   5854432.160  ops/s
+ErrorScenarioBenchmark.eitherErrorSingleton                             0.01  thrpt   15  148588796.997 ±   3966195.809  ops/s
+ErrorScenarioBenchmark.eitherErrorSingleton                              0.1  thrpt   15  142431633.602 ±   1031647.293  ops/s
+ErrorScenarioBenchmark.eitherErrorSingleton                              0.3  thrpt   15  129384834.098 ±  13712909.646  ops/s
